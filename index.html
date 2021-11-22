@@ -13,7 +13,11 @@
 <body>
   
   <div id="app">
-    {{eMail}}
+    <ul>
+      <li v-for="(mail,index) in eMail">
+        {{eMail[index]}}
+      </li>
+    </ul>
   </div>
 
 
